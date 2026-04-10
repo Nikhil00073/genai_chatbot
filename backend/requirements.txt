@@ -9,7 +9,7 @@ langchain-community==0.3.23
 langchain-text-splitters==0.3.8
 langgraph==0.4.1
 
-# LLM providers — all three so switching works instantly
+# LLM providers
 langchain-google-genai==2.1.4
 langchain-anthropic==0.3.15
 langchain-openai==0.3.16
@@ -21,11 +21,12 @@ langsmith==0.3.45
 chromadb==0.6.3
 sentence-transformers==3.4.1
 
-# HTTP client used in weather tool
+# HTTP client
 httpx==0.28.1
 
 # Environment variables
 python-dotenv==1.1.0
 
-# Pydantic — pinned to v2 for LangChain 1.x
+# Pydantic — v2 stable on Python 3.11
 pydantic==2.11.4
+pydantic-core==2.33.2
