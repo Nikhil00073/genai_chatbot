@@ -4,7 +4,7 @@
 # Write a clear docstring — the agent uses it to pick the right tool
 
 from langchain_core.tools import tool
-from backend.app.rag_service import get_retriever
+from ..rag_service import get_retriever
 
 
 @tool
