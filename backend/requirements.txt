@@ -1,32 +1,16 @@
-# FastAPI server
-fastapi==0.115.0
-uvicorn[standard]==0.30.6
-
-# LangChain core
-langchain==1.2.15
-langchain-core==0.3.63
-langchain-community==0.3.23
-langchain-text-splitters==0.3.8
-langgraph==0.4.1
-
-# LLM providers
-langchain-google-genai==2.1.4
-langchain-anthropic==0.3.15
-langchain-openai==0.3.16
-
-# LangSmith monitoring
-langsmith==0.3.45
-
-# RAG dependencies
-chromadb==0.6.3
-sentence-transformers==3.4.1
-
-# HTTP client
-httpx==0.28.1
-
-# Environment variables
-python-dotenv==1.1.0
-
-# Pydantic — v2 stable on Python 3.11
-pydantic==2.11.4
-pydantic-core==2.33.2
+fastapi
+uvicorn[standard]
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langgraph
+langchain-google-genai
+langchain-anthropic
+langchain-openai
+langsmith
+chromadb
+sentence-transformers
+httpx
+python-dotenv
+pydantic
