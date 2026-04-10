@@ -1,0 +1,15 @@
+FastAPI is a modern Python web framework for building APIs.
+It is based on Python type hints and supports async out of the box.
+FastAPI automatically generates OpenAPI documentation.
+
+Our chat API has two endpoints:
+POST /chat — sends a message and gets a reply
+DELETE /session/{session_id} — clears the chat history
+
+React is a JavaScript library for building user interfaces.
+It uses components, props, and state to manage UI.
+Our frontend runs on port 5173 using Vite.
+
+LangChain is a framework for building LLM applications.
+It provides chains, memory, agents, and RAG utilities.
+We use LangChain with Google Gemini as our default provider.
