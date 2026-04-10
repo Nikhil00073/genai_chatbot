@@ -1,25 +1,31 @@
-# FastAPI backend
-fastapi==0.115.12
-uvicorn[standard]==0.34.0
+# FastAPI server
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# LangChain core
+langchain==1.2.15
+langchain-core==0.3.63
+langchain-community==0.3.23
+langchain-text-splitters==0.3.8
+langgraph==0.4.1
+
+# LLM providers — all three so switching works instantly
+langchain-google-genai==2.1.4
+langchain-anthropic==0.3.15
+langchain-openai==0.3.16
+
+# LangSmith monitoring
+langsmith==0.3.45
+
+# RAG dependencies
+chromadb==0.6.3
+sentence-transformers==3.4.1
+
+# HTTP client used in weather tool
 httpx==0.28.1
-python-dotenv==1.0.1
 
-# LangChain core (new modular packages)
-langchain-core>=0.2.0
-langchain-community>=0.2.0
-langchain-text-splitters>=0.2.0
+# Environment variables
+python-dotenv==1.1.0
 
-# LangGraph (agents)
-langgraph>=0.1.0
-
-# Vector DB (Chroma for RAG)
-chromadb>=0.5.0
-
-# Embeddings (Sentence Transformers)
-sentence-transformers>=2.7.0
-
-# Pydantic (already used explicitly)
-pydantic>=2.7.0
-
-# Optional (recommended for production/debugging)
-tqdm>=4.66.0
+# Pydantic — pinned to v2 for LangChain 1.x
+pydantic==2.11.4
