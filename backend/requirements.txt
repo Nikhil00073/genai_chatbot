@@ -5,12 +5,11 @@ langchain-core
 langchain-community
 langchain-text-splitters
 langgraph
-langchain-google-genai
+langchain-google-genai>=4.0.0
 langchain-anthropic
 langchain-openai
 langsmith
 chromadb
-sentence-transformers
 httpx
 python-dotenv
 pydantic
